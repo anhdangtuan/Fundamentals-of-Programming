@@ -113,11 +113,11 @@ function question8(){
 //  var b = 4;
 //  var c = 8;
 //  if (a<b<c){
-//    console.log(`${a} is the smallest number, and ${c} is the biggest number between a = 1,b = 4, and c = 80`);
+//    console.log(`${a} is the smallest number, and ${c} is the biggest number between a = 1,b = 4, and c = 8`);
 //  }else if (b<c<a){
-//   console.log(`${b} is the smallest number, and ${a} is the biggest number between a = 1,b = 4, and c = 80`);
+//   console.log(`${b} is the smallest number, and ${a} is the biggest number between a = 1,b = 4, and c = 8`);
 //  }else if(c<a<b){
-//   console.log(`${c} is the smallest number, and ${b} is the biggest number between a = 1,b = 4, and c = 80`);
+//   console.log(`${c} is the smallest number, and ${b} is the biggest number between a = 1,b = 4, and c = 8`);
 //  }
 
 //exercise .5 Loops
