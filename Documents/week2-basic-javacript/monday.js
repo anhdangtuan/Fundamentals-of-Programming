@@ -151,7 +151,14 @@ function  myName(name){
   name = "Billy";
   return name;
 }
-console.log(myName()+` is not my name`)
+// console.log(myName()+` is not my name`)
+
+
+// 7. Swapping values
+let a = 5, b = 6;
+[a, b] = [b, a];
+console.log(`${a} ${b}`);
+
 
    
     
