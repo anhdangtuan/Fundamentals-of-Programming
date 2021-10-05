@@ -125,4 +125,78 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min);
 }
-console.log(getRandomInt(0, 10));
+// console.log(getRandomInt(0, 10));
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+// console.log(getRandomInt(0, 10));
+
+
+
+
+function getRandomItem(arr){
+  return arr[Math.floor(Math.random()*arr.length)];
+
+     }
+
+// var arr = [254, 45, 212, 365, 2543];
+// console.log(getRandomItem(arr));
+// console.log(arr.length);
+// ---------------------------------
+// for (var i = 0; i < 10; i++) {
+//     var s = "";
+//     for (var j = 0; j < 10; j++) {
+//       s = `${s} outer ${i} inner ${j}`;
+//     }
+//     console.log(s);
+//   }
+// --------------------------------  9. Iterate over Arrays
+var fruits = ["apples", "oranges", "bananas"];
+
+function listFruits() {
+  for (var i = 0; i < fruits.length; i++) {
+    console.log("I have some " + fruits[i]);
+  }
+}
+// listFruits();
+
+// var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
+// function money() {
+//     for (var i = 0; i < workingHours.length; i+5) {
+//     console.log(`Peter earned $(${i} today!`);
+//     }
+//   }
+// money();
+
+// var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
+// function toTalMoney(workingHours){
+//     let totalWorkingHour = 0;
+//     for (let i = 0; i < workingHours.length; i++){
+//         totalWorkingHour += workingHours[i]*25;
+//     }
+     
+//     return totalWorkingHour;
+// }
+
+//  console.log(toTalMoney());
+
+
+
+// -----------------------------------------10. Truthy/Falsy
+
+// const one = 1;
+
+// if (one) {
+//   console.log("Is truthy");
+// }
+// -------------------
+const zero = 0;
+
+if (zero) {
+  console.log("Is truthy");
+} else {
+  console.log("Isn't truth");
+}
