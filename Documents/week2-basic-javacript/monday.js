@@ -155,7 +155,8 @@ function  myName(name){
 
 
 // 7. Swapping values
-let a = 111, b = 999;
+var a = 111; 
+var b = 999;
 [a, b] = [b, a];
 console.log(`${a} ${b}`);
 
