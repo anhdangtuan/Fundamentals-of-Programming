@@ -171,6 +171,21 @@ function multiplyAll(arr) {
   
 //   multiplyAll(1);
   
+function temp2(n){
+    for(var i = 0; i<8; i++){
+        var temp =""
+        for(var j = 0; j < 8; j++){
+            if((i+j) % 2 === 0){
+                temp = temp + "  ";
+                }else {
+                temp=temp + "#";
+                } 
+            }
+            console.log(temp);  
+        }
+
+    }
+temp2();
 
 
 
