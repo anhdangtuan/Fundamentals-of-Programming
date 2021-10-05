@@ -153,35 +153,82 @@ function getRandomItem(arr){
 //     }
 //     console.log(s);
 //   }
-// --------------------------------  9. Iterate over Arrays
-var fruits = ["apples", "oranges", "bananas"];
+// --------------------------------------8. Nested For Loop
+function multiplyAll(arr) {
+    let product = 5;
+    
+    for (let i = 0; i < arr.length; i++)
+          
 
-function listFruits() {
-  for (var i = 0; i < fruits.length; i++) {
-    console.log("I have some " + fruits[i]);
+    {
+      for (let j = 0; j < arr[i].length; j++) {
+        console.log(arr[i][j]);
+      }
+    }
+    
+    return product;
   }
-}
+  
+//   multiplyAll(1);
+  
+
+
+
+
+// --------------------------------  9. Iterate over Arrays
+// var fruits = ["apples", "oranges", "bananas"];
+
+// function listFruits() {
+//   for (var i = 0; i < fruits.length; i++) {
+//     console.log("I have some " + fruits[i]);
+//   }
+// }
 // listFruits();
 
-// var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
-// function money() {
-//     for (var i = 0; i < workingHours.length; i+5) {
-//     console.log(`Peter earned $(${i} today!`);
-//     }
-//   }
-// money();
+var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
+function payEachDay() {
+    for (var i = 0; i < 10; i++) {
+        var num = i;
+        imcome = num * 25;
+    console.log("Peter earned" + workingHours[i]*25 + "$ today");
+    }
+  }
+// payEachDay();
 
-// var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
-// function toTalMoney(workingHours){
-//     let totalWorkingHour = 0;
-//     for (let i = 0; i < workingHours.length; i++){
-//         totalWorkingHour += workingHours[i]*25;
-//     }
-     
-//     return totalWorkingHour;
-// }
 
-//  console.log(toTalMoney());
+function  total(){
+var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
+var toTalSalary = 0;
+for (var i = 0; i < workingHours.length; i++){
+    var salary = workingHours[i] *25;
+    toTalSalary += salary;
+    console.log(`Peter earned $${salary} today`);
+    
+    
+    }
+console.log(`Peter has earned $${toTalSalary} in total`);
+}
+// total();
+
+function  toTalMoney(){
+var year = [];
+for (let index = 0; index < 250; index++) {
+  function getRandomIntBet(start, end) {
+    between = Math.floor(Math.random() * (end - start) + start);
+    return year.push(between);
+  }
+  getRandomIntBet(6, 8);
+}
+year;
+console.log(year);
+var workingHoursYear = year.reduce(add, 0);
+function add(acc, number) {
+  return acc + number;
+}
+console.log(workingHoursYear * 25);
+}
+
+// console.log(toTalMoney());
 
 
 
@@ -193,10 +240,10 @@ function listFruits() {
 //   console.log("Is truthy");
 // }
 // -------------------
-const zero = 0;
+// const zero = 0;
 
-if (zero) {
-  console.log("Is truthy");
-} else {
-  console.log("Isn't truth");
-}
+// if (zero) {
+//   console.log("Is truthy");
+// } else {
+//   console.log("Isn't truth");
+// }
